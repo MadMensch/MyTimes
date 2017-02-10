@@ -83,8 +83,9 @@ header nav {
   width: 630px;
 }
 
-.middle_column {
+.center_column {
   width: 300px;
+  margin: 10px 30px 40px;
 }
 
 .right_column {
@@ -148,4 +149,20 @@ header nav {
   color: white;
   font-weight: bold;
   font-size: 30px;
+}
+
+.cats_block {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cats_block span {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
